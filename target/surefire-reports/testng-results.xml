@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Actual Result is:48]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
+    <line>
+      <![CDATA[pincode error msg is: Please enter a valid pincode]]>
+    </line>
+    <line>
+      <![CDATA[Mob no error msg is: Please enter a valid mobile no.]]>
+    </line>
+    <line>
+      <![CDATA[pin error msg validation is complete]]>
+    </line>
+    <line>
+      <![CDATA[mob error msg validation is complete]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-06T16:38:40 EST" name="Suite" finished-at="2025-11-06T16:39:35 EST" duration-ms="54262">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runnerjava.healthInsuranceRunner@192d43ce]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-06T16:38:40 EST" name="Test" finished-at="2025-11-06T16:39:35 EST" duration-ms="54262">
+      <class name="Runnerjava.healthInsuranceRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runnerjava.healthInsuranceRunner@192d43ce]" started-at="2025-11-06T16:38:40 EST" name="setUpClass" finished-at="2025-11-06T16:38:41 EST" duration-ms="475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3531f3ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runnerjava.healthInsuranceRunner@192d43ce]" started-at="2025-11-06T16:38:41 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-06T16:39:09 EST" duration-ms="28325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC01: validate Coverfox Health  Insurance for single Person"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CoverFox Heath Insurance test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Result is:48]]>
+            </line>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runnerjava.healthInsuranceRunner@192d43ce]" started-at="2025-11-06T16:39:09 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-06T16:39:35 EST" duration-ms="25408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC02: validate Coverfox address detail page error msg"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CoverFox Heath Insurance test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pincode error msg is: Please enter a valid pincode]]>
+            </line>
+            <line>
+              <![CDATA[Mob no error msg is: Please enter a valid mobile no.]]>
+            </line>
+            <line>
+              <![CDATA[pin error msg validation is complete]]>
+            </line>
+            <line>
+              <![CDATA[mob error msg validation is complete]]>
+            </line>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runnerjava.healthInsuranceRunner@192d43ce]" started-at="2025-11-06T16:39:35 EST" name="tearDownClass" finished-at="2025-11-06T16:39:35 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runnerjava.healthInsuranceRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

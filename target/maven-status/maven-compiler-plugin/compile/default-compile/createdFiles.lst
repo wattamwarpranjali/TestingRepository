@@ -1,0 +1,7 @@
+com/covefox/pages/coverFoxHomepage.class
+com/covefox/pages/CoverFoxHealthPlanPage.class
+com/coverfox/utils/Utility.class
+com/covefox/pages/coverFoxAddressDetailspage.class
+com/coverfox/driverConfig/DriverFactory.class
+com/covefox/pages/CoverFoxResultPage.class
+com/covefox/pages/coverFoxMemberDetailsPage.class
