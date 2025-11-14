@@ -16,7 +16,11 @@ import io.cucumber.testng.CucumberOptions;
 				//"/Users/amarwattamwar/eclipse-workspace/CoverFoxnew/src/test/resources/Coverfoxfeature/coverFoxHealthInsurance.feature"
 				},
 		  glue = {"stepDefinitions","hooks"},
-		  plugin = {"pretty","html:target/cucumber-reports/reports.html"},
+		  plugin = {
+				  "pretty",
+				  "html:target/cucumber-reports/reports.html",
+			        "json:target/cucumber-reports/cucumber.json"
+                   },
 		 //tags="@retest",
 		  dryRun=false
 		  //publish = true 
