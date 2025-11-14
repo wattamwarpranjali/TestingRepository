@@ -70,7 +70,7 @@ public class Utility {
 		public static String readDataFromPropertiesFile(String key) throws IOException
 		{
 			Properties properties=new Properties();
-			FileInputStream myfile=new FileInputStream("/Users/amarwattamwar/eclipse-workspace/CoverFoxnew/src/main/resources/config/config.properties");
+			FileInputStream myfile=new FileInputStream("C:\\Users\\Bright\\Desktop\\push git project\\TestingRepository\\src\\main\\resources\\config\\config.properties");
 			properties.load(myfile);
 			String value = properties.getProperty(key);
 			return value;
